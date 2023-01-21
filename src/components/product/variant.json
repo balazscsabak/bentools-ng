@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_product_variants",
+  "info": {
+    "displayName": "Variant",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sku": {
+      "type": "string",
+      "required": true
+    },
+    "price": {
+      "type": "integer",
+      "required": true
+    },
+    "priceNet": {
+      "type": "integer",
+      "required": true
+    },
+    "active": {
+      "type": "boolean",
+      "default": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "attributes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "product.attribute-value",
+      "required": true
+    }
+  }
+}

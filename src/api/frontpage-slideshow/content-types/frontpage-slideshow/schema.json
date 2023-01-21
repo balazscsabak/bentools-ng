@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "frontpage_slideshows",
+  "info": {
+    "singularName": "frontpage-slideshow",
+    "pluralName": "frontpage-slideshows",
+    "displayName": "Főoldal slideshow"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slideshowItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "settings.homepage-slideshow"
+    }
+  }
+}

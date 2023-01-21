@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "settings_socials",
+  "info": {
+    "singularName": "settings-social",
+    "pluralName": "settings-socials",
+    "displayName": "Socials beállítások"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "facebook": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings.social"
+    },
+    "instagram": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings.social"
+    },
+    "youtube": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings.social"
+    }
+  }
+}

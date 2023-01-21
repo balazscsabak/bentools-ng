@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_settings_socials",
+  "info": {
+    "displayName": "Social"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string",
+      "required": false
+    },
+    "show": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

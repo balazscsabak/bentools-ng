@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "delivery_informations",
+  "info": {
+    "singularName": "delivery-information",
+    "pluralName": "delivery-informations",
+    "displayName": "Szállítási információ"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pageContent": {
+      "type": "richtext"
+    },
+    "frontpageContent": {
+      "type": "richtext"
+    }
+  }
+}

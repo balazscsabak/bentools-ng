@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "offers",
+  "info": {
+    "singularName": "offer",
+    "pluralName": "offers",
+    "displayName": "Ajánlatkérés"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    },
+    "requestText": {
+      "type": "text"
+    },
+    "sendMessageText": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "settings_brochures",
+  "info": {
+    "singularName": "settings-brochure",
+    "pluralName": "settings-brochures",
+    "displayName": "Aktuális prospektus"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "brochure": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
+    }
+  }
+}
